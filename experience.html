@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Dyuti Vartak</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="index.html">DV</a>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="education.html" class="nav-link">Education</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="experience.html" class="nav-link active">Experience</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+                <li><a href="achievements.html" class="nav-link">Achievements</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Professional <span class="highlight">Experience</span></h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="experiences">
+                    <div class="experience-item appear-animation">
+                        <div class="experience-header">
+                            <div class="experience-company">
+                                <h3>Data Scientist</h3>
+                                <h4>Contextual AI</h4>
+                            </div>
+                            <div class="experience-duration">
+                                <span class="date">Sep 2025 – Present</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul>
+                                <li>Built a context-aware multi-agent RAG system leveraging LLMs on the Contextual AI platform to continuously monitor Reddit, technical blogs, and arXiv research, surfacing emerging trends and high-value conversations for marketing insights.</li>
+                                <li>Developed scalable ingestion and retrieval pipelines in Python using Reddit via PRAW and the arXiv API and the Contextual AI SDK, storing structured JSON, HTML snapshots, and full-text PDFs in platform-specific and cross-platform datastores.</li>
+                                <li>Implemented prompt-engineered LLM workflows for grounded response generation, combining product documentation with research snippets and automated internal judging to ensure outputs were accurate, on-brand, and citation-backed.</li>
+                                <li>Established automated evaluation and monitoring hooks inspired by LMUnit and MAIN RAG, enabling natural-language unit tests on responses to validate relevance, factuality, and coverage, supporting reliable decision-making for marketing teams.</li>
+                            </ul>
+                            <div class="location"><i class="fas fa-map-marker-alt"></i> Seattle, USA</div>
+                        </div>
+                    </div>
+                    <div class="experience-item appear-animation">
+                        <div class="experience-header">
+                            <div class="experience-company">
+                                <h3>Graduate Research Assistant</h3>
+                                <h4>Seafood Globalization Lab</h4>
+                            </div>
+                            <div class="experience-duration">
+                                <span class="date">Jun 2025 – Present</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul>
+                                <li>Engineered Python-based data pipelines to scrape and clean 25+ years of US Census trade records (800k rows).</li>
+                                <li>Optimized SQL workloads using CTEs and indexed joins for faster data retrieval (reducing query runtime by 50%) and built an interactive Tableau dashboard tracking 6+ KPIs across > 100k records.</li>
+                                <li>Built Docker-based workflows integrated with AWS S3 and ECR to centralize data storage and retrieve only the required datasets at runtime via AWS Batch, ensuring consistent environments and accelerating deployment by 40%.</li>
+                                <li>Built a structured unit-testing framework (12 functions, 103 tests) for the exploreARTIS library to validate key data-filtering and transformation operations, significantly improving code quality and maintainability.</li>
+                            </ul>
+                            <div class="location"><i class="fas fa-map-marker-alt"></i> Seattle, USA</div>
+                        </div>
+                    </div>
+                    <div class="experience-item appear-animation">
+                        <div class="experience-header">
+                            <div class="experience-company">
+                                <h3>Data Engineer Intern</h3>
+                                <h4>KLOA</h4>
+                            </div>
+                            <div class="experience-duration">
+                                <span class="date">Aug 2025 – Sep 2025</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul>
+                                <li>Designed Python-based scraping scripts to extract and structure product metadata and brand-specific terminology from 50+ e-commerce platforms, collecting over 500k structured records.</li>
+                                <li>Applied unsupervised learning techniques (LDA, BERTopic) to classify e-commerce sites by theme, integrating domain-specific dictionaries into a C++ iOS codebase via Swift, improving query suggestion relevance by 25%.</li>
+                                <li>Developed and automated ETL pipelines using Databricks, reducing manual processing time by 40% and improving data consistency across multiple sources.</li>
+                            </ul>
+                            <div class="location"><i class="fas fa-map-marker-alt"></i> Seattle, USA</div>
+                        </div>
+                    </div>
+                    <div class="experience-item appear-animation">
+                        <div class="experience-header">
+                            <div class="experience-company">
+                                <h3>Undergraduate Research Assistant</h3>
+                                <h4>Deep Learning Lab</h4>
+                            </div>
+                            <div class="experience-duration">
+                                <span class="date">Jul 2023 – Mar 2024</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul>
+                                <li>Engineered a hybrid dimensionality reduction pipeline by combining SelectKBest (f-classif) with L1-regularized autoencoders, reducing a 900-feature radiomic dataset and enabling robust multi-class classification (normal, bacterial, viral) with XGBoost, achieving 80.45% accuracy.</li>
+                                <li>Performed systematic ablation studies on feature selection strategies and preprocessing choices (MinMax normalization) using cross-validation, quantifying their impact on classifier performance and improving generalization on held-out test data.</li>
+                                <li>Developed and trained a sequential autoencoder on normal-class data for unsupervised anomaly detection, extracting latent features to benchmark 9 classical ML classifiers, and evaluated results using macro-averaged precision, recall, and F2-score.</li>
+                            </ul>
+                            <div class="location"><i class="fas fa-map-marker-alt"></i> Mumbai, IND</div>
+                        </div>
+                    </div>
+                    <div class="experience-item appear-animation">
+                        <div class="experience-header">
+                            <div class="experience-company">
+                                <h3>Machine Learning Intern</h3>
+                                <h4>Docsumo Pte. Ltd</h4>
+                            </div>
+                            <div class="experience-duration">
+                                <span class="date">Nov 2023 – Jan 2024</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul>
+                                <li>Improved fraud detection precision by 30% over the baseline logistic regression model by deploying Random Forest models on 200+ financial documents using AWS SageMaker with engineered features.</li>
+                                <li>Designed and deployed Python and Flask-based automation pipelines, reducing average document processing time from 10 minutes per document to 5 minutes.</li>
+                                <li>Cut manual review effort by 60% relative to pre-automation workflows and increased client satisfaction scores by 15% compared to prior quarter.</li>
+                            </ul>
+                            <div class="location"><i class="fas fa-map-marker-alt"></i> Mumbai, IND</div>
+                        </div>
+                    </div>
+                    <div class="experience-item appear-animation">
+                        <div class="experience-header">
+                            <div class="experience-company">
+                                <h3>Data Analysis Intern</h3>
+                                <h4>Air India Engineering Services Limited</h4>
+                            </div>
+                            <div class="experience-duration">
+                                <span class="date">Jan 2023 – Feb 2023</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <ul>
+                                <li>Increased data-processing throughput by 50% compared to the team's prior manual workflow by building an automated Python pipeline that ingested, cleaned, and merged flight safety logs.</li>
+                                <li>Reduced review workload by 40% relative to historical inspection times by developing an Isolation Forest–based anomaly detection model that flagged abnormal sensor behavior, enabling engineers to focus only on high-risk events.</li>
+                                <li>Improved response time to safety issues by 35% compared to pre-dashboard processes by using SQL to retrieve operational data and designing interactive Power BI dashboards (with Spark + Airflow for data orchestration) that visualized sensor trends, model predictions, and alert thresholds.</li>
+                            </ul>
+                            <div class="location"><i class="fas fa-map-marker-alt"></i> Mumbai, IND</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">DV</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/dyutivartak" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/dyutivartak" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dyuti Vartak. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
